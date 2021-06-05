@@ -1,2 +1,5 @@
 # General
 * text=auto
+
+# Project
+package-lock.json -diff

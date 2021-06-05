@@ -1,0 +1,28 @@
+{
+  "name": "minecraft-versions",
+  "version": "1.0.0",
+  "description": "A complete list of all Minecraft versions, Java and Bedrock, release and snapshot.",
+  "keywords": [
+    "minecraft",
+    "minecraft-versions",
+    "minecraft-version-data",
+    "versions"
+  ],
+  "homepage": "https://github.com/Nixinova/Minecraft-Versions#readme",
+  "bugs": "https://github.com/Nixinova/Minecraft-Versions/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nixinova/Minecraft-Versions.git"
+  },
+  "license": "ISC",
+  "author": "Nixinova (https://nixinova.com)",
+  "main": "index.js",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.1",
+    "@types/node": "^15.12.1",
+    "typescript": "~4.3.2"
+  }
+}
