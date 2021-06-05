@@ -3,3 +3,6 @@
 
 # Project
 package-lock.json -diff
+
+# Linguist
+*.ts linguist-language=TypeScript

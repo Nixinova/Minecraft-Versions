@@ -1,6 +1,6 @@
 {
-  "name": "minecraft-versions",
-  "version": "1.0.0",
+  "name": "minecraft-vers",
+  "version": "0.1.0-2122",
   "description": "A complete list of all Minecraft versions, Java and Bedrock, release and snapshot.",
   "keywords": [
     "minecraft",
@@ -17,6 +17,9 @@
   "license": "ISC",
   "author": "Nixinova (https://nixinova.com)",
   "main": "index.js",
+  "bin": {
+    "mcdata": "src/cli.js"
+  },
   "dependencies": {
     "js-yaml": "^4.1.0"
   },

@@ -22,7 +22,20 @@ export enum Type {
 export interface Version {
     name: VersionName,
     type: Type,
+    parent: string|null,
     date: [number, number, number],
+}
+
+export interface VersionTable {
+    [version: string]: Version[]
+}
+
+export interface PhaseTable {
+    [phase: string]: VersionTable
+}
+
+export interface EditionTable {
+    [edition: string]: PhaseTable
 }
 
 export type VersionName = string;
