@@ -16,13 +16,15 @@ export enum Phase {
 export enum Type {
     Release = 'release',
     Snapshot = 'snapshot',
-    PreRelease = 'pre-release',
-    ReleaseCandidate = 'release candidate',
     Beta = 'beta',
 }
 
 export interface Version {
+    name: VersionName,
     type: Type,
-    parent: string | null,
     date: [number, number, number],
 }
+
+export type VersionName = string;
+
+export type VersionData = [VersionName, Edition, Phase, VersionName, Version[]];
