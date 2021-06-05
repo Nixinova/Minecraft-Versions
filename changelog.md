@@ -1,8 +1,21 @@
 # Changelog
 
-Build number: two-digit year + two-digit week.
+- [Versions](#versions)
+- [Data updates](#data-updates)
 
-## 0.1.0 (build 2122)
+## Versions
+
+### 0.1.1
+- [CLI] Changed input to be case-insensitive.
+- [CLI] Fixed command-line usage not working
+
+### 0.1.0
 - [API] Added API for retrieving versions.
 - [CLI] Added command-line interface.
-- [Versions] Added Java Release versions.
+
+## Data updates
+
+Build number is two-digit year + two-digit week.
+
+### build 2122
+- Added Java Release versions.

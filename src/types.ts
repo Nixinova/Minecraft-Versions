@@ -1,6 +1,6 @@
 export enum Edition {
-    Java = 'Java',
-    Bedrock = 'Bedrock',
+    Java = 'java',
+    Bedrock = 'bedrock',
 }
 
 export enum Phase {

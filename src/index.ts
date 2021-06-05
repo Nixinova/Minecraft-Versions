@@ -1,6 +1,6 @@
 import fs from 'fs';
 import yaml from 'js-yaml';
-import { VersionData, EditionTable } from './types';
+import { VersionData, EditionTable } from './types.js';
 
 const Versions: EditionTable = {};
 
