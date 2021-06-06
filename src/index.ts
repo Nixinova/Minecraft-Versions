@@ -15,4 +15,4 @@ for (const data of versionData) {
     }
 }
 
-export default Versions;
+export = Versions;

@@ -5,6 +5,9 @@
 
 ## Versions
 
+### 0.1.2
+- [API] Fixed import and export not being specified correctly.
+
 ### 0.1.1
 - [CLI] Changed input to be case-insensitive.
 - [CLI] Fixed command-line usage not working

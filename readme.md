@@ -1,13 +1,21 @@
 # Minecraft Versions
 
-A complete list of all Minecraft versions and their metadata, Java and Bedrock, release and snapshot.
+A complete list of all Minecraft versions and their metadata, for Java and Bedrock, releases and snapshots.
+
+## Install
+
+Minecraft-Versions is available [on npm](https://npmjs.com/package/minecraft-vers).
+
+Install locally using `npm install minecraft-vers` to use in a Node project.
+
+Install globally using `npm install -g minecraft-vers` to use the CLI.
 
 ## Usage
 
 Node:
 
 ```js
-const versionData = import('minecraft-vers') // old import syntax
+const versionData = require('minecraft-vers') // old import syntax
 /*or*/
 import versionData from 'minecraft-vers' // modern import syntax
 ```
@@ -39,7 +47,7 @@ mcdata [<edition>] [<phase>] [<version>] [<n>]
 ### Examples
 
 ```js
-const versionData = import('minecraft-vers')
+const versionData = require('minecraft-vers')
 
 versionData.Java.Release['1.17'][0]
 // { "type": "release", "parent": null, "date": "2021-06-08T00:00:00.000Z" }
