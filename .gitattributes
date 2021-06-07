@@ -6,3 +6,4 @@ package-lock.json -diff
 
 # Linguist
 *.ts linguist-language=TypeScript
+*.yml linguist-language=CSON
