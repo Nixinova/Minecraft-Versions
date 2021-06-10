@@ -3,7 +3,7 @@
 ## 0.2.0
 - [CLI] Added help message.
 - [CLI] Added `--full` function to display the full list of versions when only an edition or phase is given, which is now hidden by default.
-- [Data] Added Java Beta versions.
+- [Data] Added Java Alpha and Beta versions.
 
 ## 0.1.3
 - [CLI] Fixed input case sensitivity.
