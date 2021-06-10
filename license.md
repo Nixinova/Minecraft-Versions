@@ -1,10 +1,16 @@
-# ISC License
+# Unlicense
 
-Copyright &copy; 2021 Nixinova
+This is free and unencumbered software released into the public domain.
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software for any purpose, commercial or non-commercial,
+and by any means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. I intend this dedication to be an overt
+act of relinquishment in perpetuity of all present and future rights to
+this software under copyright law.
 
 The software is provided "as is" and the author disclaims all warranties
 with regard to this software including all implied warranties of
