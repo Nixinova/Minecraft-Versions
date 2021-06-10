@@ -1,6 +1,7 @@
 # Changelog
 
-Build number is two-digit year + two-digit week.
+## 0.2.0
+- [Data] Added Java Beta versions.
 
 ## 0.1.3
 - [CLI] Fixed input case sensitivity.

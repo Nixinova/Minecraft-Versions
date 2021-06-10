@@ -23,7 +23,7 @@ import versionData from 'minecraft-vers' // modern import syntax
 Command-line:
 
 ```cmd
-mcdata [<edition>] [<phase>] [<version>] [<n>]
+mcdata <edition> <phase> [<version>] [<n>]
 ```
 
 ### Output format
@@ -35,7 +35,7 @@ mcdata [<edition>] [<phase>] [<version>] [<n>]
       "<version>": [ // 1.17 | 1.16.5 | ...
         {
           "type": "<type>", // release | snapshot
-          "parent": "<parent version>|null",
+          "parent": "null|<parent>|{phase:<phase>,version:<parent>}", // null | '1.16.3' | {phase: Release, version: 1.0.0} | ...
           "date": "<timestamp>",
         }
       ]
