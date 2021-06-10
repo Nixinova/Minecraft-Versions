@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1
+- [Data] Added Combat Test versions.
+- [Data] Changed parent version strings to consistently refer to the version ID.
+- [Data] Fixed a few incorrect versions.
+
 ## 0.2.0
 - [CLI] Added help message.
 - [CLI] Added `[<param>]` argument to display stored data from a given version such as `type` or `date`.

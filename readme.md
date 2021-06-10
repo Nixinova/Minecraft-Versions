@@ -23,7 +23,7 @@ import versionData from 'minecraft-vers' // modern import syntax
 Command-line:
 
 ```cmd
-mcdata [--full] <edition> <phase> [<version>] [<n>]
+mcdata [--full] <edition> <phase> [<version>] [<index>] [<param>]
 ```
 
 ### Output format
