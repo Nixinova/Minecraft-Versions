@@ -2,8 +2,10 @@
 
 ## 0.2.0
 - [CLI] Added help message.
-- [CLI] Added `--full` function to display the full list of versions when only an edition or phase is given, which is now hidden by default.
+- [CLI] Added `[<param>]` argument to display stored data from a given version such as `type` or `date`.
+- [CLI] Added `--full` argument to display the full list of versions when only an edition or phase is given, which is now hidden by default.
 - [Data] Added Java Alpha and Beta versions.
+- [CLI] Fixed version index `0` not being parsed.
 
 ## 0.1.3
 - [CLI] Fixed input case sensitivity.
