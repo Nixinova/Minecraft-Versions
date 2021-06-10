@@ -4,7 +4,7 @@
 - [CLI] Added help message.
 - [CLI] Added `[<param>]` argument to display stored data from a given version such as `type` or `date`.
 - [CLI] Added `--full` argument to display the full list of versions when only an edition or phase is given, which is now hidden by default.
-- [Data] Added Java Alpha and Beta versions.
+- [Data] Added Java Indev, Infdev, Alpha and Beta versions.
 - [CLI] Fixed version index `0` not being parsed.
 
 ## 0.1.3
