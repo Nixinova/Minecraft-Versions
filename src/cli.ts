@@ -23,7 +23,7 @@ function getData(edition: string, phase: string, version: string, index: number,
 const valid: Record<string, any> = {
     editions: ['Java'],
     phases: {
-        java: ['Release', 'Beta', 'Alpha', 'Infdev', 'Indev'],
+        java: ['Release', 'Beta', 'Alpha', 'Infdev', 'Indev', 'Classic'],
     },
 };
 
