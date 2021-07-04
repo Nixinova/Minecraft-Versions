@@ -6,9 +6,9 @@ A complete list of all Minecraft versions and their metadata, for Java and Bedro
 
 Minecraft-Versions is available [on npm](https://npmjs.com/package/minecraft-vers).
 
-Install locally using `npm install minecraft-vers` to use in a Node project.
+Install locally using `npm install minecraft-vers@latest` to use in a Node project.
 
-Install globally using `npm install -g minecraft-vers` to use the CLI.
+Install globally using `npm install -g minecraft-vers@latest` to use the CLI.
 
 ## Usage
 
