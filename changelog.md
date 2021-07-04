@@ -2,6 +2,11 @@
 
 The ID attached to each [tagged version](https://github.com/Nixinova/Minecraft-Versions/tags) is the year and week the data was last updated.
 
+Updates that just sync new versions are not given changelog entries.
+
+## 0.3.0
+- [Data] Added Bedrock Release and Alpha full versions.
+
 ## 0.2.1
 - [Data] Added Combat Test versions.
 - [Data] Changed parent version strings to consistently refer to the version ID.
