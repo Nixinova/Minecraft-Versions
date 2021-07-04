@@ -1,42 +1,31 @@
-export enum Edition {
-    Java = 'java',
-    Bedrock = 'bedrock',
-}
+export type Edition =
+    | 'java'
+    | 'bedrock'
 
-export enum Phase {
-    Release = 'release',
-    Beta = 'beta',
-    Alpha = 'alpha',
-    Infdev = 'infdev',
-    Indev = 'indev',
-    Classic = 'classic',
-    PreClassic = 'pre-classic',
-}
+export type Phase =
+    | 'release'
+    | 'beta'
+    | 'alpha'
+    | 'infdev'
+    | 'indev'
+    | 'classic'
+    | 'pre-classic'
 
-export enum Type {
-    Release = 'release',
-    Snapshot = 'snapshot',
-    Beta = 'beta',
-}
+export type Type =
+    | 'release'
+    | 'snapshot'
+    | 'beta'
 
 export interface Version {
     name: VersionName,
     type: Type,
-    parent: string|null,
+    parent: string | null,
     date: [number, number, number],
 }
 
-export interface VersionTable {
-    [version: string]: Version[]
-}
-
-export interface PhaseTable {
-    [phase: string]: VersionTable
-}
-
-export interface EditionTable {
-    [edition: string]: PhaseTable
-}
+export type EditionTable = Record<Edition, PhaseTable>;
+export type PhaseTable = Record<Phase, VersionTable>;
+export type VersionTable = Record<string, Version[]>;
 
 export type VersionName = string;
 

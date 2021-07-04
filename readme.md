@@ -59,13 +59,13 @@ Node:
 ```js
 const versionData = require('minecraft-vers')
 
-versionData.Java.Release['1.17']
+console.log(versionData.Java.Release['1.17'])
 // [{ "name": "1.17", "type": "release", "parent": null, "date": 2021-06-08 }]
 
-versionData.Java.Beta['1.8-pre1'][0]
+console.log(versionData.Java.Beta['1.8-pre1'][0])
 // { "name": "Beta 1.8 Pre-release", "type": "snapshot", "parent": "Beta 1.8", "date": 2011-09-08 }
 
-versionData.Java.Release['1.6.3'][1] type
+console.log(versionData.Java.Release['1.6.3'][1].type)
 // "snapshot"
 ```
 
