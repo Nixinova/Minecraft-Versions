@@ -23,7 +23,7 @@
   "files": [
     "bin/",
     "dist/",
-    "src/versions.yml"
+    "data/"
   ],
   "scripts": {
     "prepublish": "tsc"
