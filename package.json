@@ -16,13 +16,12 @@
   },
   "license": "ISC",
   "author": "Nixinova (https://nixinova.com)",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "mcdata": "src/cli.js"
+    "mcdata": "dist/cli.js"
   },
   "files": [
-    "src/*.d.ts",
-    "src/*.js",
+    "dist/",
     "src/versions.yml"
   ],
   "scripts": {
