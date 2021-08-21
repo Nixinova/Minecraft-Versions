@@ -6,6 +6,7 @@
 ## Release
 
 ### Full versions
+- ['1.18', Java, Release, null, [{ type: release, date: ~ }]]
 - ['1.17.1', Java, Release, null, [{ type: release, date: 2021-07-06 }]]
 - ['1.17', Java, Release, null, [{ type: release, date: 2021-06-08 }]]
 - ['1.16.5', Java, Release, null, [{ type: release, date: 2021-01-15 }]]
@@ -79,6 +80,10 @@
 - ['1.0.0', Java, Release, null, [{ type: release, date: 2011-11-18 }]]
 
 ### Pres
+- ['1.18-es4', Java, Release, '1.18', [{name: 1.18 experimental snapshot 4, type: snapshot, date: 2021-08-17}]]
+- ['1.18-es3', Java, Release, '1.18', [{name: 1.18 experimental snapshot 3, type: snapshot, date: 2021-08-10}]]
+- ['1.18-es2', Java, Release, '1.18', [{name: 1.18 experimental snapshot 2, type: snapshot, date: 2021-07-20}]]
+- ['1.18-es1', Java, Release, '1.18', [{name: 1.18 Experimental Snapshot 1, type: snapshot, date: 2021-07-13}]]
 - ['1.17.1-rc1', Java, Release, '1.17.1', [{ name: 1.17 Release Candidate 1, type: snapshot, date: 2021-07-01 }]]
 - ['1.17.1-pre3', Java, Release, '1.17.1', [{ name: 1.17 Pre-release 3, type: snapshot, date: 2021-06-30 }]]
 - ['1.17.1-pre2', Java, Release, '1.17.1', [{ name: 1.17 Pre-release 2, type: snapshot, date: 2021-06-29 }]]
@@ -777,8 +782,9 @@
 
 ### Full versions
 
+- ['1.17.30', Bedrock, Release, null, [{ name: 'v1.17.30', type: release, date: ~ }]]
 - ['1.17.20', Bedrock, Release, null, [{ name: 'v1.17.20', type: release, date: ~ }]]
-- ['1.17.10', Bedrock, Release, null, [{ name: 'v1.17.10', type: release, date: ~ }]]
+- ['1.17.10', Bedrock, Release, null, [{ name: 'v1.17.10', type: release, date: 2021-07-13 }]]
 - ['1.17.2', Bedrock, Release, null, [{ name: 'v1.17.2', type: release, date: 2021-06-22 }]]
 - ['1.17.1', Bedrock, Release, null, [{ name: 'v1.17.1', type: release, date: 2021-06-14 }]]
 - ['1.17.0', Bedrock, Release, null, [{ name: 'v1.17.0', type: release, date: 2021-06-08 }]]
@@ -965,5 +971,3 @@
 - ['0.1.2j-demo', Bedrock, Alpha, null, [{ name: 'v0.1.2j alpha (Demo)', type: release, date: ~ }]]
 - ['0.1.1j-demo', Bedrock, Alpha, null, [{ name: 'v0.1.1j alpha (Demo)', type: release, date: ~ }]]
 - ['0.1.0-demo', Bedrock, Alpha, null, [{ name: 'v0.1.0 alpha (Demo)', type: release, date: ~ }, { name: 'v0.1.0 alpha (Demo)', type: release, date: ~ }]]
-
-### Alphas
