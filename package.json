@@ -1,6 +1,6 @@
 {
   "name": "minecraft-vers",
-  "version": "0.3.0-2133",
+  "version": "0.3.1-2133",
   "description": "A complete list of all Minecraft versions, for Java and Bedrock, release and snapshot.",
   "keywords": [
     "minecraft",
@@ -18,7 +18,7 @@
   "author": "Nixinova (https://nixinova.com)",
   "main": "dist/index.js",
   "bin": {
-    "mcdata": "dist/cli.js"
+    "mcdata": "bin/index.js"
   },
   "files": [
     "bin/",
@@ -33,9 +33,9 @@
     "yargs-parser": "^20.2.9"
   },
   "devDependencies": {
-    "@types/js-yaml": "ts4.3",
-    "@types/node": "ts4.3",
-    "@types/yargs-parser": "ts4.3",
-    "typescript": "~4.3.5"
+    "@types/js-yaml": "ts4.4",
+    "@types/node": "ts4.4",
+    "@types/yargs-parser": "ts4.4",
+    "typescript": "~4.4.2"
   }
 }
