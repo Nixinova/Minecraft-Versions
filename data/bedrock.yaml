@@ -4,7 +4,10 @@
 
 ### Full versions
 
+- ['1.18.20', Bedrock, Release, null, [{ name: 'v1.18.20', type: release, date: ~ }]]
 - ['1.18.10', Bedrock, Release, null, [{ name: 'v1.18.10', type: release, date: ~ }]]
+- ['1.18.2', Bedrock, Release, null, [{ name: 'v1.18.2', type: release, date: 2021-12-09 }]]
+- ['1.18.1', Bedrock, Release, null, [{ name: 'v1.18.1', type: release, date: 2021-12-02 }]]
 - ['1.18.0', Bedrock, Release, null, [{ name: 'v1.18.0', type: release, date: 2021-11-30 }]]
 - ['1.17.41', Bedrock, Release, null, [{ name: 'v1.17.41', type: release, date: 2021-10-27 }]]
 - ['1.17.40', Bedrock, Release, null, [{ name: 'v1.17.40', type: release, date: 2021-10-19 }]]
