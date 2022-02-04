@@ -4,6 +4,9 @@ The ID attached to each [tagged version](https://github.com/Nixinova/Minecraft-V
 
 Updates that just sync new versions are not given changelog entries.
 
+## 0.4.0
+- [Data] Added Bedrock development versions.
+
 ## 0.3.1
 - [CLI] Fixed command-line usage not working.
 
