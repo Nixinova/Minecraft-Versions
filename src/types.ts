@@ -12,9 +12,9 @@ export type Phase =
     | 'Pre-classic'
 
 export type Type =
-    | 'Release'
-    | 'Snapshot'
-    | 'Beta'
+    | 'release'
+    | 'snapshot'
+    | 'beta'
 
 export interface Version {
     name: VersionName,
