@@ -1,20 +1,20 @@
 export type Edition =
-    | 'java'
-    | 'bedrock'
+    | 'Java'
+    | 'Bedrock'
 
 export type Phase =
-    | 'release'
-    | 'beta'
-    | 'alpha'
-    | 'infdev'
-    | 'indev'
-    | 'classic'
-    | 'pre-classic'
+    | 'Release'
+    | 'Beta'
+    | 'Alpha'
+    | 'Infdev'
+    | 'Indev'
+    | 'Classic'
+    | 'Pre-classic'
 
 export type Type =
-    | 'release'
-    | 'snapshot'
-    | 'beta'
+    | 'Release'
+    | 'Snapshot'
+    | 'Beta'
 
 export interface Version {
     name: VersionName,
