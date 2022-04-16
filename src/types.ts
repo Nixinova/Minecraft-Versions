@@ -9,7 +9,7 @@ export type Phase =
     | 'Infdev'
     | 'Indev'
     | 'Classic'
-    | 'Pre-classic'
+    | 'Pre-Classic'
 
 export type Type =
     | 'release'
