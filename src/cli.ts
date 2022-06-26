@@ -20,6 +20,8 @@ function getData(edition: Edition, phase: Phase, version: string, index: number,
     return console.log(versionData[param]);
 }
 
+const stringify = (data: any) => JSON.stringify(data).replace(/"/g, '').replace(/[:,]/g, '$& ');
+
 const valid: Record<string, any> = {
     editions: ['Java', 'Bedrock'],
     phases: {
@@ -40,12 +42,50 @@ const args = yargs(process.argv.slice(2), argOpts);
 const [edition, phase, version, index, param]: string[] = args._;
 
 if (args.help) {
-    console.log(`Usage: mcdata [--full] <edition> <phase> [<version>] [<index>] [<param>]`);
-    console.log(`Example: mcdata java release 1.17 0 date // 2021-06-08T00:00:00.000Z`);
-}
-else if (args.version) console.log(VERSION);
-else if (args.full || version) getData(edition as Edition, phase as Phase, version, +index, param as keyof Version);
-else if (!edition) console.log(`[Minecraft-Versions] Valid editions: ${valid.editions.join(', ')}`);
-else if (!phase) console.log(`[Minecraft-Versions] Valid phases: ${valid.phases[edition.toLowerCase()].join(', ')}`);
-else if (!version) console.log(`[Minecraft-Versions] Please specify a version or use '--full' to list all versions.`);
+    console.log(`
+    [Minecraft-Versions]
 
+    [Usage]
+        mcdata <edition> <phase> <version> [<index>] [<param>]
+            Gets the data of a single version
+        mcdata --full <edition> <phase>
+            Lists all versions of a development phase
+        mcdata --help
+            Prints this help message.
+        mcdata --version
+            Prints the current version (v${VERSION}).
+
+    [Parameters]
+        <edition>
+            The edition of Minecraft.
+            Valid values: ${stringify(valid.editions)}
+        <phase>
+            The edition of Minecraft.
+            Valid values: ${stringify(valid.phases)}
+        <version>
+            The version number.
+        <index>
+            Grab a specific version that has this version number (as some versions are reuploaded).
+        <param>
+            Grab a specific value from the resulting data.
+
+    [Examples]
+        > mcdata java release 20w07a
+        [ { name: '20w07a', parent: '1.16', type: 'snapshot', date: 2020-02-14 } ]
+
+        > mcdata bedrock alpha 0.16.0 0
+        { name: 'v0.16.0 alpha', parent: null, type: 'release', date: 2016-10-21 }
+
+        > mcdata java release 1.18.1 0 date
+        2021-12-10
+    `);
+}
+else if (args.version) {
+    console.log(VERSION);
+}
+else if (args.full || version) {
+    getData(edition as Edition, phase as Phase, version, +index, param as keyof Version);
+}
+else {
+    console.log(`Invalid input. Type 'mcdata --help' for help.`);
+}
