@@ -248,7 +248,7 @@
 - ['20w09a', Java, Release, '1.16', [{ type: snapshot, date: 2020-02-26 }]]
 - ['20w08a', Java, Release, '1.16', [{ type: snapshot, date: 2020-02-19 }]]
 - ['20w07a', Java, Release, '1.16', [{ type: snapshot, date: 2020-02-14 }]]
-- ['20w06a', Java, Release, '1.16', [{ type: snapshot, date: 2020-02-05 }]]
+- ['20w06a', Java, Release, '1.16', [{ name: 'Snapshot 20w06a', type: snapshot, date: 2020-02-05 }]]
 - ['19w46b', Java, Release, '1.15', [{ type: snapshot, date: 2019-11-14 }]]
 - ['19w46a', Java, Release, '1.15', [{ type: snapshot, date: 2019-11-13 }]]
 - ['19w45b', Java, Release, '1.15', [{ type: snapshot, date: 2019-11-08 }]]
