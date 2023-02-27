@@ -39,7 +39,7 @@ const argOpts = {
     boolean: ['full', 'help', 'version'],
 };
 const args = yargs(process.argv.slice(2), argOpts);
-const [edition, phase, version, index, param]: string[] = args._;
+const [edition, phase, version, index, param]: string[] = args._.map(arg => arg.toString());
 
 if (args.help) {
     console.log(`

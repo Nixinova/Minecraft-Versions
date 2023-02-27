@@ -6,6 +6,7 @@ Updates that just sync new versions are not given changelog entries.
 
 ## 0.4.1
 - [CLI] Added a proper help menu.
+- [API] Fixed type definitions.
 
 ## 0.4.0
 - [Data] Added Bedrock development versions.
