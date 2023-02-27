@@ -3,6 +3,9 @@
 ## Release
 
 ### Full versions
+- ['1.19.3', Java, Release, null, [{ type: release, date: 2022-12-07 }]]
+- ['1.19.2', Java, Release, null, [{ type: release, date: 2022-08-05 }]]
+- ['1.19.1', Java, Release, null, [{ type: release, date: 2022-07-27 }]]
 - ['1.19', Java, Release, null, [{ type: release, date: 2022-06-07 }]]
 - ['1.18.2', Java, Release, null, [{ type: release, date: 2022-02-28 }]]
 - ['1.18.1', Java, Release, null, [{ type: release, date: 2021-12-10 }]]
@@ -80,6 +83,25 @@
 - ['1.0.0', Java, Release, null, [{ type: release, date: 2011-11-18 }]]
 
 ### Pres
+
+- ['1.19.4-pre1', Java, Release, '1.19.4', [{name: 1.19.4 Pre-release 1, type: snapshot, date: 2023-02-22 }]]
+- ['1.19.3-rc3', Java, Release, '1.19.3', [{name: 1.19.3 Release Candidate 3, type: snapshot, date: 2022-12-06 }]]
+- ['1.19.3-rc2', Java, Release, '1.19.3', [{name: 1.19.3 Release Candidate 2, type: snapshot, date: 2022-12-05 }]]
+- ['1.19.3-rc1', Java, Release, '1.19.3', [{name: 1.19.3 Release Candidate 1, type: snapshot, date: 2022-12-01 }]]
+- ['1.19.1-pre3', Java, Release, '1.19.3', [{name: 1.19.1 Pre-release 3, type: snapshot, date: 2022-11-29 }]]
+- ['1.19.1-pre2', Java, Release, '1.19.3', [{name: 1.19.3 Pre-release 2, type: snapshot, date: 2022-11-23 }]]
+- ['1.19.1-pre1', Java, Release, '1.19.3', [{name: 1.19.3 Pre-release 1, type: snapshot, date: 2022-11-22 }]]
+- ['1.19.2-rc2', Java, Release, '1.19.2', [{name: 1.19.2 Release Candidate 2, type: snapshot, date: 2022-08-05 }]]
+- ['1.19.2-rc1', Java, Release, '1.19.2', [{name: 1.19.2 Release Candidate 1, type: snapshot, date: 2022-08-04 }]]
+- ['1.19.1-rc3', Java, Release, '1.19.1', [{name: 1.19.1 Release Candidate 3, type: snapshot, date: 2022-07-26 }]]
+- ['1.19.1-rc2', Java, Release, '1.19.1', [{name: 1.19.1 Release Candidate 2, type: snapshot, date: 2022-07-21 }]]
+- ['1.19.1-rc1', Java, Release, '1.19.1', [{name: 1.19.1 Release Candidate 1, type: snapshot, date: 2022-06-23 }]]
+- ['1.19.1-pre6', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 6, type: snapshot, date: 2022-07-20 }]]
+- ['1.19.1-pre5', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 5, type: snapshot, date: 2022-07-15 }]]
+- ['1.19.1-pre4', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 4, type: snapshot, date: 2022-07-08 }]]
+- ['1.19.1-pre3', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 3, type: snapshot, date: 2022-07-06 }]]
+- ['1.19.1-pre2', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 2, type: snapshot, date: 2022-06-30 }]]
+- ['1.19.1-pre1', Java, Release, '1.19.1', [{name: 1.19.1 Pre-release 1, type: snapshot, date: 2022-06-21 }]]
 - ['1.19-rc2', Java, Release, '1.19', [{name: 1.19 Release Candidate 2, type: snapshot, date: 2022-06-03 }]]
 - ['1.19-rc1', Java, Release, '1.19', [{name: 1.19 Release Candidate 1, type: snapshot, date: 2022-06-02 }]]
 - ['1.19-pre5', Java, Release, '1.19', [{name: 1.19 Pre-release 5, type: snapshot, date: 2022-06-01 }]]
@@ -187,6 +209,18 @@
 - ['1.0.0-rc1', Java, Release, '1.0.0', [{ name: 'RC1', type: snapshot, date: 2021-11-13 }]]
 
 ### Snapshots
+
+- ['23w07a', Java, Release, '1.19.4', [{ type: snapshot, date: 2023-02-15 }]]
+- ['23w06a', Java, Release, '1.19.4', [{ type: snapshot, date: 2023-02-08 }]]
+- ['23w05a', Java, Release, '1.19.4', [{ type: snapshot, date: 2023-02-01 }]]
+- ['23w04a', Java, Release, '1.19.4', [{ type: snapshot, date: 2023-01-24 }]]
+- ['23w03a', Java, Release, '1.19.4', [{ type: snapshot, date: 2023-01-18 }]]
+- ['22w46a', Java, Release, '1.19.3', [{ type: snapshot, date: 2022-11-16 }]]
+- ['22w45a', Java, Release, '1.19.3', [{ type: snapshot, date: 2022-11-09 }]]
+- ['22w44a', Java, Release, '1.19.3', [{ type: snapshot, date: 2022-11-02 }]]
+- ['22w43a', Java, Release, '1.19.3', [{ type: snapshot, date: 2022-10-26 }]]
+- ['22w42a', Java, Release, '1.19.3', [{ type: snapshot, date: 2022-10-19 }]]
+- ['22w24a', Java, Release, '1.19.1', [{ type: snapshot, date: 2022-06-15 }]]
 - ['22w19a', Java, Release, '1.19', [{ type: snapshot, date: 2022-05-12 }]]
 - ['22w18a', Java, Release, '1.19', [{ type: snapshot, date: 2022-05-04 }]]
 - ['22w17a', Java, Release, '1.19', [{ type: snapshot, date: 2022-04-27 }]]
