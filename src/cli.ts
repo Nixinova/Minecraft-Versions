@@ -84,8 +84,14 @@ else if (args.version) {
     console.log(VERSION);
 }
 else if (args.full || version) {
-    getData(edition as Edition, phase as Phase, version, +index, param as keyof Version);
+
+    if (!valid.editions.map((ed:string) => ed.toLowerCase()).includes(edition.toLowerCase()))
+        console.error(`Invalid edition '${edition}'. Valid editions: ${valid.editions}`);
+    else if (!valid.phases[edition].map((phase: string) => phase.toLowerCase()).includes(phase.toLowerCase()))
+        console.error(`Invalid phase '${phase}'. Valid phases: ${valid.phases[edition]}`);
+    else
+        getData(edition as Edition, phase as Phase, version, +index, param as keyof Version);
 }
 else {
-    console.log(`Invalid input. Type 'mcdata --help' for help.`);
+    console.error(`Invalid input. Type 'mcdata --help' for help.`);
 }
