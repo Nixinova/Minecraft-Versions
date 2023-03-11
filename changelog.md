@@ -4,6 +4,9 @@ The ID attached to each [tagged version](https://github.com/Nixinova/Minecraft-V
 
 Updates that just sync new versions are not given changelog entries.
 
+## 0.4.2
+- [CLI] Fixed a crash occurring when the edition or phase part was spelled incorrectly ([#3](https://github.com/Nixinova/Minecraft-Versions/issues/3)).
+
 ## 0.4.1
 - [CLI] Added a proper help menu.
 - [API] Fixed type definitions.

@@ -4,6 +4,7 @@
 
 ### Full versions
 - ['1.20.0', Bedrock, Release, null, [{ name: 'v1.20.0', type: release, date: ~ }]]
+- ['1.19.80', Bedrock, Release, null, [{ name: 'v1.19.70', type: release, date: ~ }]]
 - ['1.19.70', Bedrock, Release, null, [{ name: 'v1.19.70', type: release, date: ~ }]]
 - ['1.19.63', Bedrock, Release, null, [{ name: 'v1.19.63', type: release, date: 2023-02-24 }]]
 - ['1.19.62', Bedrock, Release, null, [{ name: 'v1.19.62', type: release, date: 2023-02-16 }]]
@@ -133,6 +134,7 @@
 - ['1.0.0', Bedrock, Release, null, [{ name: 'v1.0.0', type: release, date: 2016-12-19 }]]
 
 ### Betas
+- ['1.19.70.26', Bedrock, Release, '1.19.70', [{ name: 'Preview 1.19.70.26', type: beta, date: 2023-03-01 }, { name: 'beta 1.19.70.26', type: beta, date: 2023-03-02 }]]
 - ['1.19.70.24', Bedrock, Release, '1.19.70', [{ name: 'Preview 1.19.70.24', type: beta, date: 2023-02-23 }, { name: 'beta 1.19.70.24', type: beta, date: 2023-02-24 }]]
 - ['1.19.70.23', Bedrock, Release, '1.19.70', [{ name: 'Preview 1.19.70.23', type: beta, date: 2023-02-15 }, { name: 'beta 1.19.70.23', type: beta, date: 2023-02-18 }]]
 - ['1.19.70.22', Bedrock, Release, '1.19.70', [{ name: 'Preview 1.19.70.22', type: beta, date: 2023-02-08 }, { name: 'beta 1.19.70.22', type: beta, date: 2023-02-11 }]]
