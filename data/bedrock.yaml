@@ -528,10 +528,10 @@
 - ['0.2.1-alpha2', Bedrock, Alpha, null, [{ name: 'v0.2.1 alpha2', type: release, date: 2012-03-17 }]]
 - ['0.2.1', Bedrock, Alpha, null, [{ name: 'v0.2.1 alpha', type: release, date: 2012-03-14 }, { name: 'v0.2.1 alpha', type: release, date: ~ }]]
 - ['0.2.0', Bedrock, Alpha, null, [{ name: 'v0.2.0 alpha', type: release, date: 2012-02-11 }]]
-- ['0.1.3', Bedrock, Alpha, null, [{ name: 'v0.1.3 alpha', type: release, date: 2011-12-03 }, { name: 'v0.1.3 alpha', type: release, date: ~ }]]
-- ['0.1.2', Bedrock, Alpha, null, [{ name: 'v0.1.2 alpha', type: release, date:  }]]
+- ['0.1.3', Bedrock, Alpha, null, [{ name: 'v0.1.3 alpha', type: release, date: 2011-12-02 }, { name: 'v0.1.3 alpha', type: release, date: 2011-12-14 }]]
+- ['0.1.2', Bedrock, Alpha, null, [{ name: 'v0.1.2 alpha', type: release, date: 2011-10-13 }]]
 - ['0.1.1', Bedrock, Alpha, null, [{ name: 'v0.1.1 alpha', type: release, date: 2011-10-07 }]]
-- ['0.1.0', Bedrock, Alpha, null, [{ name: 'v0.1.0 alpha', type: release, date: 2011-08-16 }, { name: 'v0.1.0 alpha', type: release, date: ~ }]]
+- ['0.1.0', Bedrock, Alpha, null, [{ name: 'v0.1.0 alpha', type: release, date: 2011-08-16 }]]
 
 ### J-versions
 - ['0.5.0j', Bedrock, Alpha, null, [{ name: 'v0.5.0j alpha', type: release, date: ~ }]]
