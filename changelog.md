@@ -2,7 +2,7 @@
 
 The ID attached to each [tagged version](https://github.com/Nixinova/Minecraft-Versions/tags) is the year and week the data was last updated.
 
-Updates that just sync new versions are not given changelog entries.
+Updates that just sync new versions of Minecraft are not given changelog entries.
 
 ## 0.4.2
 - [CLI] Fixed a crash occurring when the edition or phase part was spelled incorrectly ([#3](https://github.com/Nixinova/Minecraft-Versions/issues/3)).
