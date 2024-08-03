@@ -3,8 +3,14 @@
 ## Release
 
 ### Full versions
-- ['1.21.0', Bedrock, Release, null, [{ name: 'v1.21.0', type: release, date: ~ }]]
-- ['1.20.80', Bedrock, Release, null, [{ name: 'v1.20.80', type: release, date: ~ }]]
+- ['1.21.30', Bedrock, Release, null, [{ name: 'v1.21.30', type: release, date: ~ }]]
+- ['1.21.20', Bedrock, Release, null, [{ name: 'v1.21.20', type: release, date: ~ }]]
+- ['1.21.3', Bedrock, Release, null, [{ name: 'v1.21.3', type: release, date: 2024-07-15 }]]
+- ['1.21.2', Bedrock, Release, null, [{ name: 'v1.21.2', type: release, date: 2024-07-09 }]]
+- ['1.21.1', Bedrock, Release, null, [{ name: 'v1.21.1', type: release, date: 2024-06-20 }]]
+- ['1.21.0', Bedrock, Release, null, [{ name: 'v1.21.0', type: release, date: 2024-06-13 }]]
+- ['1.20.81', Bedrock, Release, null, [{ name: 'v1.20.81', type: release, date: 2024-04-29 }]]
+- ['1.20.80', Bedrock, Release, null, [{ name: 'v1.20.80', type: release, date: 2024-04-23 }]]
 - ['1.20.73', Bedrock, Release, null, [{ name: 'v1.20.73', type: release, date: 2024-04-01 }]]
 - ['1.20.72', Bedrock, Release, null, [{ name: 'v1.20.72', type: release, date: 2024-03-19 }]]
 - ['1.20.71', Bedrock, Release, null, [{ name: 'v1.20.71', type: release, date: 2024-03-12 }]]
@@ -161,6 +167,21 @@
 
 ### Betas
 # Note: Versions are dual-named "beta X" and "Preview X" depending on device.
+- ['1.21.30.21', Bedrock, Release, '1.21.30', [{ name: 'beta 1.21.30.21', type: beta, date: 2024-08-01 }]]
+- ['1.21.20.24', Bedrock, Release, '1.21.20', [{ name: 'beta 1.21.20.24', type: beta, date: 2024-07-25 }]]
+- ['1.21.20.23', Bedrock, Release, '1.21.20', [{ name: 'beta 1.21.20.23', type: beta, date: 2024-07-17 }]]
+- ['1.21.20.22', Bedrock, Release, '1.21.20', [{ name: 'beta 1.21.20.22', type: beta, date: 2024-07-10 }]]
+- ['1.21.20.21', Bedrock, Release, '1.21.20', [{ name: 'beta 1.21.20.21', type: beta, date: 2024-06-27 }]]
+- ['1.21.10.24', Bedrock, Release, '1.21.10', [{ name: 'beta 1.21.10.24', type: beta, date: 2024-06-19 }]]
+- ['1.21.10.23', Bedrock, Release, '1.21.10', [{ name: 'beta 1.21.10.23', type: beta, date: 2024-06-12 }]]
+- ['1.21.10.22', Bedrock, Release, '1.21.10', [{ name: 'beta 1.21.10.22', type: beta, date: 2024-06-05 }]]
+- ['1.21.10.21', Bedrock, Release, '1.21.10', [{ name: 'beta 1.21.10.21', type: beta, date: 2024-05-29 }]]
+- ['1.21.10.20', Bedrock, Release, '1.21.10', [{ name: 'beta 1.21.10.20', type: beta, date: 2024-05-22 }]]
+- ['1.21.0.26', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.26', type: beta, date: 2024-05-15 }]]
+- ['1.21.0.25', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.25', type: beta, date: 2024-05-08 }]]
+- ['1.21.0.24', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.24', type: beta, date: 2024-05-01 }]]
+- ['1.21.0.23', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.23', type: beta, date: 2024-04-24 }]]
+- ['1.21.0.22', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.22', type: beta, date: 2024-04-18 }]]
 - ['1.21.0.21', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.21', type: beta, date: 2024-04-10 }]]
 - ['1.21.0.20', Bedrock, Release, '1.21.0', [{ name: 'beta 1.21.0.20', type: beta, date: 2024-04-03 }]]
 - ['1.20.80.24', Bedrock, Release, '1.20.80', [{ name: 'beta 1.20.80.24', type: beta, date: 2024-03-27 }]]
