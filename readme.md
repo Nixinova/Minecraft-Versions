@@ -77,6 +77,12 @@ console.log(versionData.Java.Release['1.6.3'][1].type)
 
 [Omniarchive index](https://docs.google.com/spreadsheets/d/1OCxMNQLeZJi4BlKKwHx2OlzktKiLEwFXnmCrSdAFwYQ/htmlview), excluding speculative (yellow-shaded) versions.
 
+## Contributing
+
+Version information is stored in the [data](data/) folder.
+
+Use `node script/add` to add an entry to the files.
+
 ## License
 
 This data is released into the public domain and can be used for any purpose.
