@@ -14,13 +14,17 @@ const typeMap = {
 }
 
 const templates = {
-    java: `- ['%VER%', Java, Release, null, [{ type: %TYPE%, date: %DATE% }]]`,
-    bedrock: `- ['%VER%', Bedrock, Release, null, [{ name: '%NAME%', type: %TYPE%, date: %DATE% }]]`,
+    java: `- ['%VER%', Java, Release, %PARENT%, [{ name: '%NAME%', type: %TYPE%, date: %DATE% }]]`,
+    bedrock: `- ['%VER%', Bedrock, Release, %PARENT%, [{ name: '%NAME%', type: %TYPE%, date: %DATE% }]]`,
 };
 
-function add(edition, type, ver, date, name) {
+function add(edition, type, ver, date, name, parent) {
     if (edition === 'bedrock') {
         name ??= (type === 'release' ? 'v' : 'beta ') + ver;
+        parent ??= ver.split('.').slice(0, 3).join('.'); // a.b.c.d -> a.b.c
+    }
+    if (edition === 'java') {
+        parent ??= ver.split('-pre')[0].replace(ver, '') || null; // 1.20-pre1 -> 1.20; 20w06a -> null (can't tell)
     }
 
     if (!ver) throw 'No version specified!';
@@ -44,6 +48,7 @@ function add(edition, type, ver, date, name) {
         .replace('%TYPE%', type === 'pre' ? 'snapshot' : type)
         .replace('%DATE%', date)
         .replace('%NAME%', name)
+        .replace('%PARENT%', parent ? `'${parent}'` : null)
 
     const linesNew = [...lines.slice(0, insertionIndex), newLine, ...lines.slice(insertionIndex)];
     fs.writeFileSync(filename, linesNew.join('\n'));
@@ -52,7 +57,7 @@ function add(edition, type, ver, date, name) {
 function cli() {
     const args = process.argv.slice(2);
     if (args.length < 4) {
-        console.log('Usage: node add <edition> <type> <ver> <date> [<displayName>]');
+        console.log('Usage: node add <edition> <type> <ver> <date> [<displayName>] [<parent>]');
         console.log('    Valid types: release, pre, snapshot, beta');
         console.log('    Example: node add bedrock release 1.21.1 2024-06-20');
         console.log('    Warning: Script is very naive. Please double check all additions.');
