@@ -14,7 +14,7 @@ const typeMap = {
 }
 
 const templates = {
-    java: `- ['%VER%', Java, Release, %PARENT%, [{ name: '%NAME%', type: %TYPE%, date: %DATE% }]]`,
+    java: `- ['%VER%', Java, Release, %PARENT%, [{ name: %NAME%, type: %TYPE%, date: %DATE% }]]`,
     bedrock: `- ['%VER%', Bedrock, Release, %PARENT%, [{ name: '%NAME%', type: %TYPE%, date: %DATE% }]]`,
 };
 
@@ -47,7 +47,7 @@ function add(edition, type, ver, date, name, parent) {
         .replace('%VER%', ver)
         .replace('%TYPE%', type === 'pre' ? 'snapshot' : type)
         .replace('%DATE%', date)
-        .replace('%NAME%', name)
+        .replace('%NAME%', name || ver)
         .replace('%PARENT%', parent ? `'${parent}'` : null)
 
     const linesNew = [...lines.slice(0, insertionIndex), newLine, ...lines.slice(insertionIndex)];
