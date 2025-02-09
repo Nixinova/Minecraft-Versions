@@ -1,6 +1,6 @@
 {
   "name": "minecraft-vers",
-  "version": "0.4.3-2431",
+  "version": "0.4.4-2506",
   "description": "A complete list of all Minecraft versions, for Java and Bedrock, release and snapshot.",
   "keywords": [
     "minecraft",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Nixinova/Minecraft-Versions.git"
   },
-  "license": "ISC",
+  "license": "CC0-1.0",
   "author": "Nixinova (https://nixinova.com)",
   "main": "dist/index.js",
   "bin": {

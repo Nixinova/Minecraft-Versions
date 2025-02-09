@@ -4,7 +4,7 @@ The ID attached to each [tagged version](https://github.com/Nixinova/Minecraft-V
 
 Updates that just sync new versions of Minecraft are not given changelog entries.
 
-## Next
+## 0.4.4
 - [CLI] Fixed versions like '1.10' being processed as '1.1'.
 
 ## 0.4.3
