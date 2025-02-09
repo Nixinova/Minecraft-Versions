@@ -37,7 +37,8 @@ const argOpts = {
         version: ['v'],
     },
     boolean: ['full', 'help', 'version'],
-};
+    string: ['_'],
+} satisfies yargs.Options;
 const args = yargs(process.argv.slice(2), argOpts);
 const [edition, phase, version, index, param]: string[] = args._.map(arg => arg.toString());
 
