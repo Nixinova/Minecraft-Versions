@@ -1,6 +1,6 @@
 {
   "name": "minecraft-vers",
-  "version": "0.4.4-2537",
+  "version": "0.4.4-2605",
   "description": "A complete list of all Minecraft versions, for Java and Bedrock, release and snapshot.",
   "keywords": [
     "minecraft",
@@ -29,7 +29,7 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
